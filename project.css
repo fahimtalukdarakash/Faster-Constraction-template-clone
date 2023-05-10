@@ -4,6 +4,9 @@
 .first-nav{
     background-color: #1F1F2E;
 }
+.text-bg2{
+    color: #1F1F2E;
+}
 .contact-info{
     padding-left: 40px;
 }
@@ -60,6 +63,10 @@
     background-color: #FF4800;
     border-color: #FF4800;
 }
+.btn-primary:hover{
+    background-color: #D93D00;
+    border-color: #D93D00;
+}
 .navbar .btn{
     margin-right: 40px;
     font-weight: 400;
@@ -77,7 +84,7 @@
     height: 70vh;
 }
 .banner-section{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/header.jpg");
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/header.jpg");
     background-size:cover;
 }
 .banner{
@@ -127,4 +134,7 @@
 .py-80{
     padding-top: 80px;
     padding-bottom: 80px;
+}
+.dot-circle{
+    margin-right:10px;
 }
